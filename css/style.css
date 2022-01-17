@@ -1,0 +1,202 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --main-color: #2196F3;
+    --family-color: #212121;
+}
+
+body{
+   font-family: var(--font-family); 
+   color: var(--family-color);
+}
+
+/*================COMPONENTS================ */
+.model-btn{
+    /* font-family: Roboto;     */
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+.secondary-header{
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    /* color: #212121; */
+}
+
+/*================END COMPONENTS================ */
+
+
+/*================HEADER================ */
+
+.navigation-logo {  
+    font-family: var(--secondary-font); 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;    
+    /* identical to box height */
+    letter-spacing: 0.03em; 
+    color:#212121; 
+    
+    
+}
+.navigation-logo-color{
+    color: var(--main-color);
+}
+
+.navigation-list-link,
+.address{    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;  
+    color:#212121 
+}
+
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone-number:hover,
+.address-phone-number:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone-number:hover,
+.footer-phone-number:focus{
+    color:var(--main-color);
+}
+
+.address{
+    font-style: normal;      
+}
+.address-mail,
+.address-phone-number{
+    color: #757575;
+}
+
+
+/*================END HEADER================ */
+
+/*================BUTTON================ */
+.main-header{
+
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+/* color: #FFFFFF; */
+}
+/*================END BUTTON================ */
+
+/*================NASZE ATUTY================ */
+.navigation-advantages-h4{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+
+}
+.navigation-advantages-p{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*================END NASZE ATUTY================ */
+
+/*================STAFF================ */
+
+.third-header{   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+
+}
+
+.staff_p{   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+
+    color: rgba(117, 117, 117, 0.63);
+}
+/*================END STAFF================ */
+
+/*================FOOTER================ */
+.footer_list{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+      
+}
+/* .footer-address{
+    color: #FFFFFF;
+} */
+/* .footer-mail,
+.footer-phone-number{
+color: rgba(255, 255, 255, 0.6);
+} */
+
+/*================END FOOTER================ */
+
+/*================PORTFOLIO================ */
+.navigation-list-link-portfolio{
+    color: var(--main-color);
+}
+
+.third-header-project{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+.staff_p-project{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+
+color: #757575;
+}
